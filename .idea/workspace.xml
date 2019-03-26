@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bdc33f-08f2-470d-8bc3-4b3c7fb4ac8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/pro.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/reflect/ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/reflect/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/reflect/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/reflect/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/reflect/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedJava/src/annotation/MyAnnoTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedJava/AdvancedJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJava/AdvancedJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedJava/out/production/test/CalculatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedJava/src/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJava/test/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedJava/src/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedJava/src/domain/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +25,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="15" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
@@ -43,20 +33,20 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="15" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2032" />
+          <entry key="java" value="2157" />
           <entry key="properties" value="36" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2032" />
+          <entry key="JAVA" value="2157" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="Properties" value="36" />
         </counts>
@@ -138,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AdvancedJava/src/reflect/ReflectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="306">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,12 +143,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AdvancedJava/src/domain/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="168">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="e#128#129#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdvancedJava/src/annotation/MyAnnoTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -189,9 +188,10 @@
         <option value="$PROJECT_DIR$/AdvancedJava/src/domain/Person.java" />
         <option value="$PROJECT_DIR$/AdvancedJava/src/reflect/Test3.java" />
         <option value="$PROJECT_DIR$/AdvancedJava/src/reflect/Test4.java" />
-        <option value="$PROJECT_DIR$/AdvancedJava/src/domain/Student.java" />
         <option value="$PROJECT_DIR$/AdvancedJava/src/pro.properties" />
         <option value="$PROJECT_DIR$/AdvancedJava/src/reflect/ReflectTest.java" />
+        <option value="$PROJECT_DIR$/AdvancedJava/src/domain/Student.java" />
+        <option value="$PROJECT_DIR$/AdvancedJava/src/annotation/MyAnnoTest1.java" />
       </list>
     </option>
   </component>
@@ -236,7 +236,14 @@
               <item name="Java_Web" type="462c0819:PsiDirectoryNode" />
               <item name="AdvancedJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Web" type="462c0819:PsiDirectoryNode" />
+              <item name="AdvancedJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Web" type="b2602c69:ProjectViewProjectNode" />
@@ -262,7 +269,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553605290893" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553606994488" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -383,7 +390,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553514192657</updated>
-      <workItem from="1553514195765" duration="12202000" />
+      <workItem from="1553514195765" duration="13397000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1553514889719</created>
@@ -420,7 +427,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12202000" />
+    <option name="totallyTimeSpent" value="13397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -436,11 +443,11 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -597,17 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdvancedJava/src/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdvancedJava/src/pro.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -615,13 +611,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AdvancedJava/src/annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AdvancedJava/src/reflect/ReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="306">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdvancedJava/src/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdvancedJava/src/annotation/MyAnnoTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>

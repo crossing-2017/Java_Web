@@ -6,6 +6,7 @@ package domain;
  * @date 2019-03-26
  */
 public class Student {
+    public int age;
     public void sleep(){
         System.out.println("sleep...");
     }
