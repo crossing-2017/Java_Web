@@ -1,5 +1,3 @@
-package test;
-
 import junit.Calculator;
 import org.junit.After;
 import org.junit.Assert;
