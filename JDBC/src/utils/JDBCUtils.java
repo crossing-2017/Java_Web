@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -26,7 +26,7 @@ public class JDBCUtils {
             ClassLoader classLoader = JDBCUtils.class.getClassLoader();
             URL resource = classLoader.getResource("jdbc.properties");
             String path = resource.getPath();
-            //properties.load(new FileReader("JDBC/src/jdbc.properties"));
+            //properties.load(new FileReader("jdbc/src/jdbc.properties"));
             properties.load(new FileReader(path));
             url = properties.getProperty("url");
             user = properties.getProperty("user");

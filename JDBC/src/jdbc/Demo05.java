@@ -1,9 +1,10 @@
-import Utils.JDBCUtils;
+package jdbc;
+
+import utils.JDBCUtils;
 import domain.Emp;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 /**
  * 将数据库中的表封装到类中再对其进行操作

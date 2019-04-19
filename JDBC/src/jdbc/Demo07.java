@@ -1,24 +1,26 @@
-import Utils.JDBCUtils;
+package jdbc;
+
+import utils.JDBCUtils;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.Scanner;
 
 /**
- * 查询数据库登陆情况
+ * 解决SQL注入问题测试
  * @author Crossing
- * @date 2019-0419
+ * @date 2019-04-19
  */
-public class Demo06 {
+public class Demo07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入用户名：");
         String username = scanner.nextLine();
         System.out.println("请输入密码：");
         String password = scanner.nextLine();
-        boolean flag = new Demo06().login(username, password);
+        boolean flag = new Demo07().login(username, password);
         if(flag){
             System.out.println("登录成功！");
         }else{
@@ -27,24 +29,28 @@ public class Demo06 {
     }
 
     public boolean login(String username, String password){
+
+
         if(username == null || password == null){
             return false;
         }
         Connection connection = null;
-        Statement statement = null;
+        PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
+
         try {
             connection = JDBCUtils.getConnection();
-            statement = connection.createStatement();
-            String sql = "select * from user where name = '"+username+"' and password = '"+password+"' ";
-            System.out.println(sql);
-            resultSet = statement.executeQuery(sql);
+            String sql = "select * from user where name = ? and password = ?";
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, username);
+            preparedStatement.setString(2, password);
+            resultSet = preparedStatement.executeQuery();
             return resultSet.next();
 
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
-            JDBCUtils.close(connection, statement, resultSet);
+            JDBCUtils.close(connection, preparedStatement, resultSet);
         }
         return false;
     }

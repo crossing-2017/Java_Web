@@ -6,5 +6,5 @@ package annotation;
  * @date 2019-03-26
  * 格式：public @interface 注解名称{属性列表;}
  */
-public @interface MyAnnoTest1 {
+public @interface  MyAnnoTest1 {
 }
