@@ -3,6 +3,7 @@ import domain.Emp;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * 将数据库中的表封装到类中再对其进行操作
@@ -13,7 +14,9 @@ public class Demo05 {
     public static void main(String[] args) {
         Demo05 demo05 = new Demo05();
         ArrayList<Emp> allList = demo05.getAllList();
-        System.out.println(allList);
+        for (Emp anAllList : allList) {
+            System.out.println(anAllList);
+        }
         System.out.println(allList.size());
     }
 
