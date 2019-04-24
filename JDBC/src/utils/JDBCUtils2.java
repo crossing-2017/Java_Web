@@ -39,4 +39,12 @@ public class JDBCUtils2 {
     public static Connection getConnect() throws SQLException {
         return dataSource.getConnection();
     }
+
+    /**
+     * 获取连接池方法
+     */
+
+    public static DataSource getDataSource(){
+        return  dataSource;
+    }
 }
