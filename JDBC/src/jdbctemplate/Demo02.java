@@ -101,6 +101,7 @@ public class Demo02 {
             System.out.println(emp);
         }
     }
+
     /**
      * 6.1 查询所有记录，将其封装为Emp对象的List集合
      */
