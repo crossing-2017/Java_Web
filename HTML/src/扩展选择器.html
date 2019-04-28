@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            color: red;
+        }
+
+        div > p{
+            border: 1px solid;
+        }
+
+        input[type='text']{
+            border: 5px solid;
+        }
+
+        a:link{
+            color: pink;
+        }
+
+        a:hover{
+            color: green;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a:visited{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>科技美学</p>
+    </div>
+    <p>传智博客</p>
+
+    <input type="text" >
+    <input type="password" >
+
+
+    <br>
+    <a href="#">科技美学  </a>
+</body>
+</html>
