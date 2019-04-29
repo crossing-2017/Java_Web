@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bdc33f-08f2-470d-8bc3-4b3c7fb4ac8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/10_JS特殊语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/11_JS语法_for语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/12_JS语法_swtich语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/13_JS语法_while语句.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/14_JS练习_99乘法表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/1_JS与HTML结合方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/2_JS注释.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/3_JS变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/4_JS变量_typeof.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/5_JS运算符_一元运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/6_JS运算符_算术运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/7_JS运算符_比较运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/8_JS运算符_逻辑运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/9_JS运算符_三元运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JavaScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/JavaScript基础笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/js/a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/15_JS对象_function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/16_JS对象_Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/17_JS对象_Date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/18_JS对象_Math.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/19_JS对象_RegExp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20_JS对象_Global.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,7 +47,7 @@
           <entry key="Driver" value="1" />
           <entry key="class" value="11" />
           <entry key="css" value="2" />
-          <entry key="html" value="59" />
+          <entry key="html" value="65" />
           <entry key="iml" value="2" />
           <entry key="java" value="74" />
           <entry key="jpg" value="4" />
@@ -73,7 +61,7 @@
         <counts>
           <entry key="CLASS" value="11" />
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="59" />
+          <entry key="HTML" value="65" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="4" />
           <entry key="JAVA" value="74" />
@@ -88,7 +76,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="css" value="56" />
-          <entry key="html" value="7434" />
+          <entry key="html" value="8757" />
           <entry key="java" value="8310" />
           <entry key="js" value="24" />
           <entry key="properties" value="187" />
@@ -100,7 +88,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="56" />
-          <entry key="HTML" value="7434" />
+          <entry key="HTML" value="8757" />
           <entry key="JAVA" value="8310" />
           <entry key="JavaScript" value="24" />
           <entry key="PLAIN_TEXT" value="12" />
@@ -122,47 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/10_JS特殊语法.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/11_JS语法_for语句.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/12_JS语法_swtich语句.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/13_JS语法_while语句.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/14_JS练习_99乘法表.html">
+        <entry file="file://$PROJECT_DIR$/JavaScript/20_JS对象_Global.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="356">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -185,12 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JDBC/src/Demo06.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/Demo07.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/Demo08.java" />
-        <option value="$PROJECT_DIR$/AdvancedJava/src/annotation/MyAnnoTest1.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/JDBC/src/datasource/C3P0Demo01.java" />
         <option value="$PROJECT_DIR$/JDBC/src/datasource/druid/DruidDemo.java" />
         <option value="$PROJECT_DIR$/JDBC/src/druid.properties" />
         <option value="$PROJECT_DIR$/JDBC/src/datasource/druid/DruidDemo2.java" />
@@ -236,6 +182,12 @@
         <option value="$PROJECT_DIR$/JavaScript/11_JS语法_for语句.html" />
         <option value="$PROJECT_DIR$/JavaScript/13_JS语法_while语句.html" />
         <option value="$PROJECT_DIR$/JavaScript/14_JS练习_99乘法表.html" />
+        <option value="$PROJECT_DIR$/JavaScript/15_JS对象_function.html" />
+        <option value="$PROJECT_DIR$/JavaScript/16_JS对象_Array.html" />
+        <option value="$PROJECT_DIR$/JavaScript/17_JS对象_Date.html" />
+        <option value="$PROJECT_DIR$/JavaScript/18_JS对象_Math.html" />
+        <option value="$PROJECT_DIR$/JavaScript/19_JS对象_RegExp.html" />
+        <option value="$PROJECT_DIR$/JavaScript/20_JS对象_Global.html" />
       </list>
     </option>
   </component>
@@ -246,10 +198,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="591" />
-    <option name="y" value="39" />
-    <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="width" value="714" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -288,7 +238,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/crossing/GitHub/Java_Web/HTML/src/案例_注册页面.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556524746003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556534191504" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -439,7 +389,7 @@
       <updated>1553514192657</updated>
       <workItem from="1553514195765" duration="14997000" />
       <workItem from="1554383171976" duration="941000" />
-      <workItem from="1554515569639" duration="70751000" />
+      <workItem from="1554515569639" duration="77189000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1553514889719</created>
@@ -491,7 +441,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86689000" />
+    <option name="totallyTimeSpent" value="93127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,91 +558,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/JDBC/lib/spring-core-5.0.0.RELEASE.jar!/org/springframework/core/annotation/AliasFor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/JDBC/lib/spring-core-5.0.0.RELEASE.jar!/org/springframework/core/annotation/AnnotationAttributeExtractor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/utils/JDBCUtils2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/jdbctemplate/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/domain/Emp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/src/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/out/production/HelloWorld.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -910,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/JavaScript基础笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/4_JS变量_typeof.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -988,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/11_JS语法_for语句.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/12_JS语法_swtich语句.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1011,8 +861,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/14_JS练习_99乘法表.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="342">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/11_JS语法_for语句.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/15_JS对象_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/16_JS对象_Array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/17_JS对象_Date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/18_JS对象_Math.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/JavaScript基础笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/19_JS对象_RegExp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/20_JS对象_Global.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
         </state>
       </provider>
     </entry>
