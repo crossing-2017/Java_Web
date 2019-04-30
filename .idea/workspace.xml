@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62bdc33f-08f2-470d-8bc3-4b3c7fb4ac8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/15_JS对象_function.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/16_JS对象_Array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/17_JS对象_Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/18_JS对象_Math.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/19_JS对象_RegExp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20_JS对象_Global.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/21_DOM_获取元素对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/22_事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/23_案例1_电灯开关.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/DOM树.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JavaScript高级笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/gou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/register_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/img/verify_code.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,12 +54,12 @@
           <entry key="Driver" value="1" />
           <entry key="class" value="11" />
           <entry key="css" value="2" />
-          <entry key="html" value="65" />
+          <entry key="html" value="69" />
           <entry key="iml" value="2" />
           <entry key="java" value="74" />
           <entry key="jpg" value="4" />
           <entry key="js" value="2" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="properties" value="7" />
           <entry key="xml" value="1" />
         </counts>
@@ -61,12 +68,12 @@
         <counts>
           <entry key="CLASS" value="11" />
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="65" />
+          <entry key="HTML" value="69" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="4" />
           <entry key="JAVA" value="74" />
           <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="Properties" value="7" />
           <entry key="SPI" value="1" />
           <entry key="XML" value="1" />
@@ -76,7 +83,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="css" value="56" />
-          <entry key="html" value="8757" />
+          <entry key="html" value="9373" />
           <entry key="java" value="8310" />
           <entry key="js" value="24" />
           <entry key="properties" value="187" />
@@ -88,7 +95,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="56" />
-          <entry key="HTML" value="8757" />
+          <entry key="HTML" value="9373" />
           <entry key="JAVA" value="8310" />
           <entry key="JavaScript" value="24" />
           <entry key="PLAIN_TEXT" value="12" />
@@ -100,21 +107,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/JavaScript基础笔记.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/JavaScript高级笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
               <first_editor />
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/20_JS对象_Global.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -137,9 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JDBC/src/datasource/druid/DruidDemo.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/druid.properties" />
-        <option value="$PROJECT_DIR$/JDBC/src/datasource/druid/DruidDemo2.java" />
         <option value="$PROJECT_DIR$/JDBC/src/utils/JDBCUtils2.java" />
         <option value="$PROJECT_DIR$/JDBC/src/jdbctemplate/Demo01.java" />
         <option value="$PROJECT_DIR$/JDBC/src/domain/Emp.java" />
@@ -188,6 +183,9 @@
         <option value="$PROJECT_DIR$/JavaScript/18_JS对象_Math.html" />
         <option value="$PROJECT_DIR$/JavaScript/19_JS对象_RegExp.html" />
         <option value="$PROJECT_DIR$/JavaScript/20_JS对象_Global.html" />
+        <option value="$PROJECT_DIR$/JavaScript/21_DOM_获取元素对象.html" />
+        <option value="$PROJECT_DIR$/JavaScript/22_事件绑定.html" />
+        <option value="$PROJECT_DIR$/JavaScript/23_案例_电灯开关.html" />
       </list>
     </option>
   </component>
@@ -200,6 +198,26 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="714" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSCheckFunctionSignatures</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -238,7 +256,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/crossing/GitHub/Java_Web/HTML/src/案例_注册页面.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556534191504" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556594049682" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -389,7 +407,7 @@
       <updated>1553514192657</updated>
       <workItem from="1553514195765" duration="14997000" />
       <workItem from="1554383171976" duration="941000" />
-      <workItem from="1554515569639" duration="77189000" />
+      <workItem from="1554515569639" duration="81551000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1553514889719</created>
@@ -441,7 +459,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93127000" />
+    <option name="totallyTimeSpent" value="97489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,38 +576,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML/out/production/HelloWorld.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/jdbctemplate/Demo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/jdbc/Demo05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/HTML.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/src/HelloWorld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -873,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/15_JS对象_function.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/16_JS对象_Array.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -901,6 +880,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/19_JS对象_RegExp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/JavaScript基础笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -909,17 +895,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/19_JS对象_RegExp.html">
+    <entry file="file://$PROJECT_DIR$/JavaScript/20_JS对象_Global.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="488">
+          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/20_JS对象_Global.html">
+    <entry file="file://$PROJECT_DIR$/JavaScript/15_JS对象_function.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="163">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/22_事件绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/21_DOM_获取元素对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/23_案例1_电灯开关.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/JavaScript高级笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
