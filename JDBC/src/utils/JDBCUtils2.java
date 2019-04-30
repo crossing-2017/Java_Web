@@ -28,8 +28,6 @@ public class JDBCUtils2 {
         try {
             properties.load(new FileReader(path));
             dataSource = DruidDataSourceFactory.createDataSource(properties);
-        } catch (IOException e) {
-            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }
