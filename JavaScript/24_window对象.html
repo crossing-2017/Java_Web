@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>window对象</title>
+
+</head>
+<body>
+    <input type="button" value="打开窗口" id="openbutton">
+    <input type="button" value="关闭窗口" id="closebutton" >
     <script>
         /*
             Window：窗口对象
@@ -43,9 +48,69 @@
                     * Window对象不需要创建可以直接使用 window使用。 window.方法名();
                     * window引用可以省略。  方法名();
          */
+
+        /*alert("hello window");
+        window.alert("hello a")*/
+        /*
+         //确认框
+         var flag = confirm("您确定要退出吗？");
+
+         if(flag){
+             //退出操作
+
+             alert("欢迎再次光临！");
+         }else{
+             //提示：手别抖...
+             alert("手别抖...");
+         }*/
+
+        //输入框
+        /*var name = prompt('请输入用户名');
+        alert(name);*/
+
+/*        var newWindow;  //新建一个变量来接受用来开启或者关闭的窗口
+        //打开新窗口
+        var openbutton = document.getElementById('openbutton');
+        openbutton.onclick = function () {
+            //打开新窗口
+            newWindow = open("https://www.baidu.com");
+        };*/
+
+        //关闭已经打开的窗口
+/*        var closebutton = document.getElementById('closebutton');
+        closebutton.onclick = function (ev) {
+            newWindow.close();
+        }*/
+
+        //一次性定时器
+        //setTimeout("alert('boom~~');", 3000);
+        /*var timeout = setTimeout(fun, 3000);
+        clearTimeout(timeout);*/
+
+        //循环定时器
+/*        var timeout = setInterval(fun, 3000);
+
+        clearInterval(timeout);
+
+        function fun() {
+            alert('boom~~');
+        }*/
+
+
+        //获取history
+/*        var h1 = window.history;
+        var h2 = history;
+
+        alert(h1);
+        alert(h2);*/
+
+
+        //获取DOM对象
+        var button = window.document.getElementById('openbutton');
+        alert(button);
+
+
     </script>
-</head>
-<body>
 
 </body>
 </html>

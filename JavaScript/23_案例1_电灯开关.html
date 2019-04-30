@@ -22,6 +22,8 @@
                 * 使用标记flag来完成
          */
         var flag = false;
+        var light = document.getElementById('light');
+
         function fun() {
             if (flag) {
                 light.src = 'img/off.gif';
@@ -31,7 +33,6 @@
                 flag = true;
             }
         }
-        var light = document.getElementById('light');
         light.onclick = fun;
     </script>
 </body>
