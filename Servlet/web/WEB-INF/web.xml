@@ -3,4 +3,36 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+
+
+    <!--配置servlet-->
+    <servlet>
+        <servlet-name>demo01</servlet-name>
+        <servlet-class>servlet.Demo01</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>demo01</servlet-name>
+        <url-pattern>/demo01</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>demo02</servlet-name>
+        <servlet-class>servlet.Demo02</servlet-class>
+
+        <!--指定servlet配置周期
+            1.第一次被访问时，创建
+                * <load-on-startup>的值为负数
+            2.在服务器启动时，创建
+                * <load-on-startup>的值为0或正整数
+        -->
+        <load-on-startup>-5</load-on-startup>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>demo02</servlet-name>
+        <url-pattern>/demo02</url-pattern>
+    </servlet-mapping>
 </web-app>
