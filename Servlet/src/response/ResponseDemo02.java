@@ -1,6 +1,5 @@
-package request;
+package response;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,26 +8,22 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * 对Request请求中中文的处理
+ * 重定向测试
  * @author Crossing
  * @date 2019-05-22
  */
-@WebServlet("/requestDemo07")
-public class RequestDemo07 extends HttpServlet {
+@WebServlet("/responseDemo02")
+public class ResponseDemo02 extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("demo07被访问了");
+        System.out.println("demo2........");
 
-
-        request.setAttribute("msg", "HelloWorld");
-        //转发到demo8资源
-        request.getRequestDispatcher("/requestDemo08").forward(request,response);
+        Object msg = request.getAttribute("msg");
+        System.out.println(msg);
     }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // get获取请求参数
-
         this.doPost(request, response);
     }
 }

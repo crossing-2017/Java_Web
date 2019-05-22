@@ -1,34 +1,37 @@
-package request;
+package response;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.nio.charset.StandardCharsets;
 
 /**
- * 对Request请求中中文的处理
+ * 获取输出字节流
  * @author Crossing
  * @date 2019-05-22
  */
-@WebServlet("/requestDemo07")
-public class RequestDemo07 extends HttpServlet {
+@WebServlet("/responseDemo04")
+public class ResponseDemo04 extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("demo07被访问了");
+        //简单的形式，设置编码
+        response.setContentType("text/html;charset=utf-8");
+
+        //1.获取字节输出流
+        ServletOutputStream outputStream = response.getOutputStream();
+        //2.输出数据
+        outputStream.write("你好".getBytes(StandardCharsets.UTF_8));
 
 
-        request.setAttribute("msg", "HelloWorld");
-        //转发到demo8资源
-        request.getRequestDispatcher("/requestDemo08").forward(request,response);
     }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // get获取请求参数
-
         this.doPost(request, response);
     }
 }

@@ -1,6 +1,6 @@
-package request;
+package servletContext;
 
-import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,26 +9,31 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * 对Request请求中中文的处理
+ * servlet对象的功能二，域对象
  * @author Crossing
  * @date 2019-05-22
  */
-@WebServlet("/requestDemo07")
-public class RequestDemo07 extends HttpServlet {
+@WebServlet("/servletContextDemo03")
+public class ServletContextDemo03 extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("demo07被访问了");
+        /*
 
+            ServletContext功能：
+               1. 获取MIME类型：
 
-        request.setAttribute("msg", "HelloWorld");
-        //转发到demo8资源
-        request.getRequestDispatcher("/requestDemo08").forward(request,response);
+                2. 域对象：共享数据
+                3. 获取文件的真实(服务器)路径
+         */
+
+        //2. 通过HttpServlet获取
+        ServletContext context = this.getServletContext();
+
+        context.setAttribute("msg" , "haha");
     }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // get获取请求参数
-
-        this.doPost(request, response);
+        this.doPost(request,response);
     }
 }
