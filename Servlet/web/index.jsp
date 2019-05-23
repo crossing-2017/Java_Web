@@ -11,6 +11,32 @@
     <title>$Title$</title>
 </head>
 <body>
-$END$
+
+
+
+
+    <%
+        System.out.println("hello JSP");
+
+        String contextPath = request.getContextPath();
+        out.write(contextPath);
+    %>
+
+
+    <%!
+        int a = 3;
+    %>
+
+    <%= "hello" %>
+
+
+
+
+    <h1>hello JSP....</h1>
+
+
+    <%
+        response.getWriter().write("response");
+    %>
 </body>
 </html>
